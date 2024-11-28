@@ -1,0 +1,96 @@
+.logo-cartaz{
+    width: 50px;
+}
+
+/*Luffy*/
+
+#background-luffy{
+    background-image: url(../img/background/background-luffy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-ap-luffy{
+    margin: 20px 90px;
+    border-radius: 20px;
+}
+
+.img-or-luffy{
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+/*Zoro*/
+
+#background-zoro{
+    background-image: url(../img/background/background-zoro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-ap-zoro{
+    margin: 20px 50px;
+    border-radius: 20px;
+}
+
+.img-or-zoro{
+    margin: 20px 15px;
+    border-radius: 15px;
+}
+
+/*Nami*/
+
+#background-nami{
+    background-image: url(../img/background/background-nami.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-ap-nami{
+    margin: 20px 40px;
+    border-radius: 20px;
+}
+
+.img-or-nami{
+    margin: 20px 15px;
+    border-radius: 15px;
+}
+
+/*Usopp*/
+
+#background-usopp{
+    background-image: url(../img/background/background-usopp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-ap-usopp{
+    margin: 20px 80px;
+    border-radius: 20px;
+}
+
+.img-or-usopp{
+    margin: 20px 30px;
+    border-radius: 15px;
+}
+
+.img-or-usopp2{
+    margin: 80px 50px;
+    border-radius: 15px;
+}
+
+/*Autor*/
+
+.img-or-oda{
+    margin-left: 250px;
+    border-radius: 15px;
+}
+
+.img-obr-oda{
+    margin-left: 175px;
+    border-radius: 15px;
+}

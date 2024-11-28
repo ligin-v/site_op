@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sour Gummy";
+}
+
+#background-index{
+    background-image: url(../img/background/background-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    width: 750px;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    padding: 0 25px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 2;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
+
+#menu li a{
+    position: relative;
+    top: 20px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.sub-menu{
+    position: absolute;
+    top: 68px;
+    width: 130px;
+    display: none;
+    list-style: none;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#menu .sub-menu li a{
+    top: 0;
+}
+
+.arcos .sub-menu{
+    right: 150px;
+}
+
+#menu li:hover .sub-menu{
+    display: block;
+}
+
+.sub-menu li img{
+    width: 20px;
+    margin: 5px 5px 0 5px;
+}
+
+#principal{
+    width: 950px;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #FFF;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+#principal p{
+    margin-left: 10px;
+}
+
+.img-sobre{
+    width: 300px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+#principal #abertura{
+    margin: 10px 0 10px 150px;
+}
+
+#principal .fruta{
+    width: 300px;
+}
+
+#principal .mapa{
+    width: 400px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#principal .cartaz{
+    width: 250px;
+    margin: 20px;
+}
+
+#site-footer {
+    background: rgba(0, 0, 0, 0.8); /* Fundo transparente para combinar com o tema */
+    color: #FFF; /* Texto branco */
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 100px;
+    border-top: 2px solid rgba(255, 255, 255, 0.2); /* Linha separadora */
+}
+
+#site-footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#site-footer .footer-links {
+    margin-bottom: 10px;
+}
+
+#site-footer .footer-links a {
+    color: #FFD700; /* Cor dourada para destacar */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+#site-footer .footer-links a:hover {
+    color: #FFF; /* Muda para branco ao passar o mouse */
+}
+
+#site-footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
